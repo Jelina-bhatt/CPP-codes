@@ -1,32 +1,36 @@
 #include<iostream>
 using namespace std;
-class static_item
+class BCT
 {
 private:
-    static int count;
-    float price;
+int code;
+static int count;
 public:
-   void get_data(float a){
-    price=a;
+   void setcode(){
     count++;
+    code=count;
    }
-    static void show_count(){
-        cout<<"count="<<count<<endl;
-    }
-};
-int static_item::count;
-
-int main(){
-    static_item a1,a2,a3;
-    a1.show_count();
-    a2.show_count();
-    a3.show_count();
-    a1.get_data(50.5);
-    a2.get_data(80.5);
-    a3.get_data(60.5);
-cout<<"after reading data"<<endl;
- a1.show_count();
-    a2.show_count();
-    a3.show_count();
-    return 0;
+void showcode(){
+    cout<<"student code="<<code<<"/BCT/080"<<endl;
 }
+static void showcount(){
+    cout<<"records of"<<count<<"students found"<<endl;
+
+   }
+};
+int BCT::count=0;
+ 
+ int main(){
+    BCT s1,s2;
+    s1.setcode();
+    s2.setcode();
+    BCT::showcount();
+    BCT s3;
+    s3.setcode();
+     BCT::showcount();
+s1.showcode();
+s2.showcode();
+s3.showcode();
+return 0;
+ }
+ 
