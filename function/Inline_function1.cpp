@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-inline add (int p,int q){
+inline int  add (int p,int q){
     return p+q;
 }
 int main(){
