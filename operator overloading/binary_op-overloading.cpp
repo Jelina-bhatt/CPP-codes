@@ -19,7 +19,7 @@ complex complex:: operator +(complex c)
 }
 void complex:: display()
 {
-    cout<<x<<"+j"<<y<<endl;
+    cout<<"add="<<x<<"+j"<<y<<endl;
 }
 int main()
 {
