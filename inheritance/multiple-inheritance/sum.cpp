@@ -19,7 +19,7 @@ class two
     }
 };
 
-class derived : public one , public two
+class three : public one , public two
 {
     int z;
     public: void enter()
@@ -36,7 +36,7 @@ class derived : public one , public two
 };
 int main()
 {
-    derived obj;
+    three obj;
     obj.enter();
     obj.display1();
     obj.display2();
