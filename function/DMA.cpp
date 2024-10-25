@@ -9,6 +9,7 @@ int main(){
     cin>>*p>>*q;
     *sum=*p+*q;
     cout<<"the sum is ="<<*sum;
+    
     delete p;
     delete q;
     delete sum;
