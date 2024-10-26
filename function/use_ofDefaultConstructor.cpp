@@ -11,7 +11,6 @@ class  Wall {
   public:
     // defaulted constructor to initialize variable
     Wall() = default;
-    
     void print_length() {
     	cout << "length = " << length << endl;
     }
