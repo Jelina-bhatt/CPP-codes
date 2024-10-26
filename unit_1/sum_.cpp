@@ -5,6 +5,7 @@ inline int sum(int a, int b) { // Inline function definition
     return a + b;
 }
 
+
 int main() { //  main function signature
     int x, y, k;
     cout << "Enter two numbers: "; // Prompt the user for input
