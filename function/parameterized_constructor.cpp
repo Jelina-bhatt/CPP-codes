@@ -15,7 +15,6 @@ class Wall {
       : length{len}
       , height{hgt} {
     }
-
     double calculateArea() {
       return length * height;
     }
