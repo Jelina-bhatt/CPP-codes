@@ -21,6 +21,7 @@ class Wall {
     }
 };
 
+
 int main() {
   // create object and initialize data members
   Wall wall1(10.5, 8.6);
