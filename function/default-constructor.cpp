@@ -17,6 +17,7 @@ class  Wall {
     }
 };
 
+
 int main() {
   Wall wall1;
   return 0;
