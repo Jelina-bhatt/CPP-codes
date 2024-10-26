@@ -9,6 +9,7 @@ public:
     }
 };
 
+
 // Derived class 1
 class Dog : public Animal {
 public:
