@@ -9,6 +9,7 @@ public:
     }
 };
 
+
 // Derived class 1
 class Dog : public Animal {
 public:
@@ -17,6 +18,7 @@ public:
     }
 };
 
+
 // Derived class 2
 class Cat : public Animal {
 public:
@@ -24,6 +26,7 @@ public:
         cout << "Cat is meowing." << endl;
     }
 };
+
 
 int main() {
     Dog d;

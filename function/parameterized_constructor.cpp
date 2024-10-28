@@ -15,11 +15,11 @@ class Wall {
       : length{len}
       , height{hgt} {
     }
-
     double calculateArea() {
       return length * height;
     }
 };
+
 
 int main() {
   // create object and initialize data members
