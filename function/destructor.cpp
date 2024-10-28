@@ -5,7 +5,6 @@ class Rectangle {
 private:
     int width;
     int height;
-
 public:
     // Constructor
     Rectangle(int w, int h) {
