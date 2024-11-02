@@ -14,6 +14,7 @@ class counter
         cout<<"Count = "<<count<< endl;
     }
 };
+
 void counter:: operator ++()
 {
     count ++;
