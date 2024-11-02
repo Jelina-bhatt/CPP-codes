@@ -10,6 +10,7 @@ class complex
     complex operator +(complex);
     void display();
 };
+
 complex complex:: operator +(complex c)
 {
     complex temp;
