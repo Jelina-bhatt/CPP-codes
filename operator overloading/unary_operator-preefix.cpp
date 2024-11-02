@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 class counter
 {
     int count;
