@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 class complex
 {
     float x,y;
