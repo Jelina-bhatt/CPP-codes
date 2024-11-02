@@ -19,6 +19,7 @@ void counter:: operator ++()
 {
     count ++;
 }
+
 int main()
 {
     counter c1,c2;
