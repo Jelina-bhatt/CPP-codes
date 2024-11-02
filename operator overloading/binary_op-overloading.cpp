@@ -19,6 +19,7 @@ complex complex:: operator +(complex c)
     temp.y = y + c.y;
     return (temp);
 }
+
 void complex:: display()
 {
     cout<<"add="<<x<<"+j"<<y<<endl;
