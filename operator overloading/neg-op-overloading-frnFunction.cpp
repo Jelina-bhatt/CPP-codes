@@ -24,6 +24,7 @@ void space:: display()
 {
     cout<<"x="<<x<<"y="<<y<<"z="<<z<<endl;
 }
+
 void operator -(space &s)
 {
     s.x=-s.x;
