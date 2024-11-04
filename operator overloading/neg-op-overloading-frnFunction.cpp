@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 class space
 {
     int x,y,z;
@@ -13,6 +14,7 @@ class space
     void display ();
     friend void operator-(space &);
 };
+
 space:: space (int a, int b, int c)
 {
     x=a; y=b; z=c;
