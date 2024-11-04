@@ -24,6 +24,7 @@ public:
     }
 };
 
+
 int main() {
     MyArray myArr;
     cout << "Element at index 2: " << myArr[2] << endl;
