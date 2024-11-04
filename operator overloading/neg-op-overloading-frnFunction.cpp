@@ -19,6 +19,7 @@ space:: space (int a, int b, int c)
 {
     x=a; y=b; z=c;
 }
+
 void space:: display()
 {
     cout<<"x="<<x<<"y="<<y<<"z="<<z<<endl;
