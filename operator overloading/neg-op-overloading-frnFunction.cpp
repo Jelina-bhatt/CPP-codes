@@ -31,6 +31,7 @@ void operator -(space &s)
     s.y=-s.y;
     s.z=-s.z;
 }
+
 int main()
 {
     space s1, s2(10, -7, -13);
