@@ -29,6 +29,7 @@ float area(int m, int n){
 float area(int w,float x){
     return (2*3.14*w*x);
 }
+
 float area (float i,float j)
 {
     return(0.5*i*j);
