@@ -16,6 +16,7 @@ cout<<"area of cylinder="<<area(c,p);
 cout<<"area of triangle="<<area(q,r);
 return 0;
 }
+
 float area(int l){
     return(3.14*l*l);
 }
