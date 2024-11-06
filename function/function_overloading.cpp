@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 float area(int,float);     //cylinder
 float area(float,float);  //triangle
 float area(int,int);  //rectangle
