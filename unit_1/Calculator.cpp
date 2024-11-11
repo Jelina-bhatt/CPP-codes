@@ -3,7 +3,6 @@
 int main() {
     double num1, num2;
     char operation;
-
     std::cout << "Enter first number: ";
     std::cin >> num1;
     std::cout << "Enter an operator (+, -, *, /): ";

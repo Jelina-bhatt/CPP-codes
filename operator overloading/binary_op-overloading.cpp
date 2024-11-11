@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 class complex
 {
     float x,y;
@@ -10,6 +11,7 @@ class complex
     complex operator +(complex);
     void display();
 };
+
 complex complex:: operator +(complex c)
 {
     complex temp;
@@ -17,10 +19,12 @@ complex complex:: operator +(complex c)
     temp.y = y + c.y;
     return (temp);
 }
+
 void complex:: display()
 {
     cout<<"add="<<x<<"+j"<<y<<endl;
 }
+
 int main()
 {
     complex c1(3.5, 7.5), c2(9.2, 10.5),c3;

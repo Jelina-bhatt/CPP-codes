@@ -18,6 +18,7 @@ class GFG
         print();
     }
 };
+
 // GFG2 inherits publicly from GFG
 class GFG2 : public GFG
 {

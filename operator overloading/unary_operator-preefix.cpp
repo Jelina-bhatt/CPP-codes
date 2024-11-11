@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 class counter
 {
     int count;
@@ -13,10 +14,12 @@ class counter
         cout<<"Count = "<<count<< endl;
     }
 };
+
 void counter:: operator ++()
 {
     count ++;
 }
+
 int main()
 {
     counter c1,c2;

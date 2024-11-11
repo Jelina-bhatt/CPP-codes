@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 // Function to calculate the average of array elements
 double calculateAverage(int arr[], int size) {
     int sum = 0;
