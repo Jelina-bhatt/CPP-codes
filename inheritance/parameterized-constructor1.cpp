@@ -18,7 +18,7 @@ class derived: public base{
     }
     int calculate()
     {
-        cout<<"total work ="<<mark1+mark2;
+        cout<<"total marks ="<<mark1+mark2;
     }
 };
 
