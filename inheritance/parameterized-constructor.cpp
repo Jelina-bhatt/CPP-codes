@@ -12,7 +12,7 @@ class base{
 
 class derived: public base{
     int total;
-    public: derived() : base (0,0)
+    public: derived() : base (9,8)
     {
         total = 0;
     }
