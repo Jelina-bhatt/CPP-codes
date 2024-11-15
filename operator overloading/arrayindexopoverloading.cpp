@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 class array
 {
     int a[10];
