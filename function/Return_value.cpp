@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 // Function declaration
 int multiply(int a, int b) {
     return a * b;
