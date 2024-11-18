@@ -14,6 +14,7 @@ void sortArray(int arr[], int size) {
     }
 }
 
+
 int main() {
     int size;
     cout << "Enter the size of the array: ";
