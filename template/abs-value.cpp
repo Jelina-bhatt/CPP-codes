@@ -13,7 +13,7 @@ T abs(T n){
     
 }
 int main(){
-    int a=-4;
+    int a=-4,5;
     float b=9.00;
     cout<<"the absoulte value of a"<<abs(a)<<endl;
     cout<<"the absolute value of b"<<abs(b)<<endl;
