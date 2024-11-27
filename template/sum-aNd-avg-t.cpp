@@ -16,6 +16,6 @@ cout<<"sum="<<sum<<"and avg="<<avg<<endl;
 float b[]={0.0,1.1,2.3,4.5,6.6};
  float sb= 0.0, ab= 0.0;
 calc(b,5,sb,ab);
-cout<<"sum ="<<sum<<"and avg="<<avg;
+cout<<"sum ="<<sb<<"and avg="<<ab;
 return 0;
 }
