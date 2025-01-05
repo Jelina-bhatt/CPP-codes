@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 template<class t1,class t2>
 class ABC{
     t1 a;
